@@ -80,9 +80,6 @@ if __name__ == "__main__":
 
     sum = 0
     for i in range(0, height, 1):
-        below_line = 0
-        above_line = 0
-        in_line = 0
         width = len(arrays[i])
         for j in range(0, width, 1):
             if arrays[i][j].char == IS_SYM:
